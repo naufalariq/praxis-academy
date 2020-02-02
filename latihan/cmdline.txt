@@ -1,1 +1,1056 @@
+1. attrib
+C:\Users\Naufal Ariq>attrib
+A                    C:\Users\Naufal Ariq\.gitconfig
+A   H   I            C:\Users\Naufal Ariq\NTUSER.DAT
+A  SH                C:\Users\Naufal Ariq\ntuser.dat.LOG1
+A  SH                C:\Users\Naufal Ariq\ntuser.dat.LOG2
+A  SH                C:\Users\Naufal Ariq\NTUSER.DAT{fd9a35da-49fe-11e9-aa2c-248a07783950}.TxR.0.regtrans-ms
+A  SH                C:\Users\Naufal Ariq\NTUSER.DAT{fd9a35da-49fe-11e9-aa2c-248a07783950}.TxR.1.regtrans-ms
+A  SH                C:\Users\Naufal Ariq\NTUSER.DAT{fd9a35da-49fe-11e9-aa2c-248a07783950}.TxR.2.regtrans-ms
+A  SH                C:\Users\Naufal Ariq\NTUSER.DAT{fd9a35da-49fe-11e9-aa2c-248a07783950}.TxR.blf
+A  SH                C:\Users\Naufal Ariq\NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TM.blf
+A  SH                C:\Users\Naufal Ariq\NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000001.regtrans-ms
+A  SH                C:\Users\Naufal Ariq\NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000002.regtrans-ms
+   SH                C:\Users\Naufal Ariq\ntuser.ini
 
+2. arp -a 
+C:\Users\Naufal Ariq>arp -a
+
+Interface: 192.168.43.128 --- 0xe
+  Internet Address      Physical Address      Type
+  192.168.43.1          84-c7-ea-1f-6a-5d     dynamic
+  192.168.43.255        ff-ff-ff-ff-ff-ff     static
+  224.0.0.22            01-00-5e-00-00-16     static
+  224.0.0.251           01-00-5e-00-00-fb     static
+  224.0.0.252           01-00-5e-00-00-fc     static
+  239.255.255.250       01-00-5e-7f-ff-fa     static
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static
+
+C:\Users\Naufal Ariq>
+
+3. cd..
+C:\Users\Naufal Ariq>cd..
+
+C:\Users>cd..
+
+C:\>
+
+4. cls
+blank, (clearscreen)
+
+5. dir
+C:\Users\Naufal Ariq>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 2E64-FE23
+
+ Directory of C:\Users\Naufal Ariq
+
+27/01/2020  07:07    <DIR>          .
+27/01/2020  07:07    <DIR>          ..
+28/07/2019  21:46    <DIR>          .android
+18/01/2020  10:06    <DIR>          .flashTool
+24/11/2019  21:18               127 .gitconfig
+10/11/2019  19:14    <DIR>          .MemuHyperv
+24/11/2019  02:41    <DIR>          .swt
+30/12/2019  15:32    <DIR>          3D Objects
+30/12/2019  15:33    <DIR>          Contacts
+29/01/2020  21:31    <DIR>          Desktop
+26/01/2020  20:50    <DIR>          Documents
+24/01/2020  06:55    <DIR>          Downloads
+30/12/2019  15:33    <DIR>          Favorites
+30/12/2019  15:33    <DIR>          Links
+30/12/2019  15:33    <DIR>          Musice
+26/01/2020  18:56    <DIR>          OneDrive
+06/01/2020  06:49    <DIR>          Pictures
+30/12/2019  15:33    <DIR>          Saved Games
+30/12/2019  15:33    <DIR>          Searches
+18/01/2020  18:48    <DIR>          Videos
+               1 File(s)            127 bytes
+              19 Dir(s)   7.571.079.168 bytes free
+6. exit (Keluar dari cmd/close program)
+7. getmac
+C:\Users\Naufal Ariq>getmac
+
+Physical Address    Transport Name
+=================== ==========================================================
+24-FD-52-40-4D-65   \Device\Tcpip_{CE689C9C-3113-485B-9B1B-A01791C532A8}
+20-89-84-9B-B6-36   Media disconnected
+24-FD-52-40-80-87   Media disconnected
+
+8. hostname 
+C:\Users\Naufal Ariq>hostname
+DESKTOP-QQ29H68
+
+9. help
+C:\Users\Naufal Ariq>help
+For more information on a specific command, type HELP command-name
+ASSOC          Displays or modifies file extension associations.
+ATTRIB         Displays or changes file attributes.
+BREAK          Sets or clears extended CTRL+C checking.
+BCDEDIT        Sets properties in boot database to control boot loading.
+CACLS          Displays or modifies access control lists (ACLs) of files.
+CALL           Calls one batch program from another.
+CD             Displays the name of or changes the current directory.
+CHCP           Displays or sets the active code page number.
+CHDIR          Displays the name of or changes the current directory.
+CHKDSK         Checks a disk and displays a status report.
+CHKNTFS        Displays or modifies the checking of disk at boot time.
+CLS            Clears the screen.
+CMD            Starts a new instance of the Windows command interpreter.
+COLOR          Sets the default console foreground and background colors.
+COMP           Compares the contents of two files or sets of files.
+COMPACT        Displays or alters the compression of files on NTFS partitions.
+CONVERT        Converts FAT volumes to NTFS.  You cannot convert the
+               current drive.
+COPY           Copies one or more files to another location.
+DATE           Displays or sets the date.
+DEL            Deletes one or more files.
+DIR            Displays a list of files and subdirectories in a directory.
+DISKPART       Displays or configures Disk Partition properties.
+DOSKEY         Edits command lines, recalls Windows commands, and
+               creates macros.
+DRIVERQUERY    Displays current device driver status and properties.
+ECHO           Displays messages, or turns command echoing on or off.
+ENDLOCAL       Ends localization of environment changes in a batch file.
+ERASE          Deletes one or more files.
+EXIT           Quits the CMD.EXE program (command interpreter).
+FC             Compares two files or sets of files, and displays the
+               differences between them.
+FIND           Searches for a text string in a file or files.
+FINDSTR        Searches for strings in files.
+FOR            Runs a specified command for each file in a set of files.
+FORMAT         Formats a disk for use with Windows.
+FSUTIL         Displays or configures the file system properties.
+FTYPE          Displays or modifies file types used in file extension
+               associations.
+GOTO           Directs the Windows command interpreter to a labeled line in
+               a batch program.
+GPRESULT       Displays Group Policy information for machine or user.
+GRAFTABL       Enables Windows to display an extended character set in
+               graphics mode.
+HELP           Provides Help information for Windows commands.
+ICACLS         Display, modify, backup, or restore ACLs for files and
+               directories.
+IF             Performs conditional processing in batch programs.
+LABEL          Creates, changes, or deletes the volume label of a disk.
+MD             Creates a directory.
+MKDIR          Creates a directory.
+MKLINK         Creates Symbolic Links and Hard Links
+MODE           Configures a system device.
+MORE           Displays output one screen at a time.
+MOVE           Moves one or more files from one directory to another
+               directory.
+OPENFILES      Displays files opened by remote users for a file share.
+PATH           Displays or sets a search path for executable files.
+PAUSE          Suspends processing of a batch file and displays a message.
+POPD           Restores the previous value of the current directory saved by
+               PUSHD.
+PRINT          Prints a text file.
+PROMPT         Changes the Windows command prompt.
+PUSHD          Saves the current directory then changes it.
+RD             Removes a directory.
+RECOVER        Recovers readable information from a bad or defective disk.
+REM            Records comments (remarks) in batch files or CONFIG.SYS.
+REN            Renames a file or files.
+RENAME         Renames a file or files.
+REPLACE        Replaces files.
+RMDIR          Removes a directory.
+ROBOCOPY       Advanced utility to copy files and directory trees
+SET            Displays, sets, or removes Windows environment variables.
+SETLOCAL       Begins localization of environment changes in a batch file.
+SC             Displays or configures services (background processes).
+SCHTASKS       Schedules commands and programs to run on a computer.
+SHIFT          Shifts the position of replaceable parameters in batch files.
+SHUTDOWN       Allows proper local or remote shutdown of machine.
+SORT           Sorts input.
+START          Starts a separate window to run a specified program or command.
+SUBST          Associates a path with a drive letter.
+SYSTEMINFO     Displays machine specific properties and configuration.
+TASKLIST       Displays all currently running tasks including services.
+TASKKILL       Kill or stop a running process or application.
+TIME           Displays or sets the system time.
+TITLE          Sets the window title for a CMD.EXE session.
+TREE           Graphically displays the directory structure of a drive or
+               path.
+TYPE           Displays the contents of a text file.
+VER            Displays the Windows version.
+VERIFY         Tells Windows whether to verify that your files are written
+               correctly to a disk.
+VOL            Displays a disk volume label and serial number.
+XCOPY          Copies files and directory trees.
+WMIC           Displays WMI information inside interactive command shell.
+
+For more information on tools see the command-line reference in the online help.
+
+10. ipconfig
+C:\Users\Naufal Ariq>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 11:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::71dc:9dc5:49ec:9f23%14
+   IPv4 Address. . . . . . . . . . . : 192.168.43.128
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.43.1
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+11. klist
+C:\Users\Naufal Ariq>klist
+
+Current LogonId is 0:0x51a3f
+
+Cached Tickets: (0)
+
+12. label 
+C:\Users\Naufal Ariq>label
+Volume in drive C: has no label
+Volume Serial Number is 2E64-FE23
+Volume label (32 characters, ENTER for none)?
+
+13. nbtstat -a 192.168.43.128
+C:\Users\Naufal Ariq>nbtstat /a 192.168.43.128
+
+Ethernet:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    Host not found.
+
+Bluetooth Network Connection:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    Host not found.
+
+Wi-Fi:
+Node IpAddress: [192.168.43.128] Scope Id: []
+
+    Host not found.
+
+Local Area Connection* 1:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    Host not found.
+
+Local Area Connection* 11:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    Host not found.
+
+14. path
+C:\WINDOWS\system32>path
+PATH=C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Naufal Ariq\AppData\Local\Microsoft\WindowsApps
+
+15. powershell
+C:\WINDOWS\system32>powershell
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+16. ping google.com
+ C:\WINDOWS\system32> ping google.com
+
+Pinging google.com [172.217.194.113] with 32 bytes of data:
+Reply from 172.217.194.113: bytes=32 time=57ms TTL=40
+Reply from 172.217.194.113: bytes=32 time=48ms TTL=40
+Reply from 172.217.194.113: bytes=32 time=48ms TTL=40
+Reply from 172.217.194.113: bytes=32 time=47ms TTL=40
+
+Ping statistics for 172.217.194.113:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 47ms, Maximum = 57ms, Average = 50ms
+
+17. quser
+C:\WINDOWS\system32>quser
+ USERNAME              SESSIONNAME        ID  STATE   IDLE TIME  LOGON TIME
+>naufal ariq           console             1  Active      none   27/01/2032 18:24
+
+18. schtask
+C:\WINDOWS\system32>schtasks
+
+Folder: \
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+ChromiumUpdateTaskUserS-1-5-21-403099586 30/01/2020 02:14:30    Ready
+ChromiumUpdateTaskUserS-1-5-21-403099586 29/01/2020 22:14:31    Ready
+CorelUpdateHelperTaskCore                30/01/2020 11:35:32    Ready
+GoogleUpdateTaskMachineCore              30/01/2020 19:45:29    Running
+GoogleUpdateTaskMachineUA                29/01/2020 22:45:30    Ready
+OneDrive Standalone Update Task-S-1-5-21 30/01/2020 20:06:15    Ready
+User_Feed_Synchronization-{FD0DEEF8-1DEB 30/01/2020 04:22:42    Ready
+
+Folder: \Microsoft
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+INFO: There are no scheduled tasks presently available at your access level.
+
+Folder: \Microsoft\Office
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+Office 15 Subscription Heartbeat         30/01/2020 06:18:13    Ready
+OfficeTelemetryAgentFallBack             N/A                    Ready
+OfficeTelemetryAgentLogOn                N/A                    Ready
+
+Folder: \Microsoft\OneCore
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+INFO: There are no scheduled tasks presently available at your access level.
+
+Folder: \Microsoft\Windows
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+INFO: There are no scheduled tasks presently available at your access level.
+
+Folder: \Microsoft\Windows\.NET Framework
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+.NET Framework NGEN v4.0.30319           N/A                    Ready
+.NET Framework NGEN v4.0.30319 64        N/A                    Ready
+.NET Framework NGEN v4.0.30319 64 Critic N/A                    Disabled
+.NET Framework NGEN v4.0.30319 Critical  N/A                    Disabled
+
+Folder: \Microsoft\Windows\Active Directory Rights Management Services Client
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+AD RMS Rights Policy Template Management N/A                    Disabled
+AD RMS Rights Policy Template Management N/A                    Ready
+
+Folder: \Microsoft\Windows\AppID
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+EDP Policy Manager                       N/A                    Ready
+PolicyConverter                          N/A                    Disabled
+VerifiedPublisherCertStoreCheck          N/A                    Disabled
+
+Folder: \Microsoft\Windows\Application Experience
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+Microsoft Compatibility Appraiser        30/01/2020 04:20:43    Ready
+ProgramDataUpdater                       N/A                    Ready
+StartupAppTask                           N/A                    Ready
+
+Folder: \Microsoft\Windows\ApplicationData
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+appuriverifierdaily                      N/A                    Ready
+appuriverifierinstall                    N/A                    Ready
+CleanupTemporaryState                    N/A                    Ready
+DsSvcCleanup                             N/A                    Ready
+
+Folder: \Microsoft\Windows\AppxDeploymentClient
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+Pre-staged app cleanup                   N/A                    Disabled
+
+Folder: \Microsoft\Windows\Autochk
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+Proxy                                    N/A                    Ready
+
+Folder: \Microsoft\Windows\BitLocker
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+BitLocker Encrypt All Drives             N/A                    Ready
+BitLocker MDM policy Refresh             N/A                    Ready
+
+Folder: \Microsoft\Windows\Bluetooth
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+UninstallDeviceTask                      N/A                    Ready
+
+Folder: \Microsoft\Windows\BrokerInfrastructure
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+BgTaskRegistrationMaintenanceTask        N/A                    Ready
+
+Folder: \Microsoft\Windows\CertificateServicesClient
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+AikCertEnrollTask                        N/A                    Ready
+CryptoPolicyTask                         N/A                    Ready
+KeyPreGenTask                            N/A                    Ready
+SystemTask                               N/A                    Ready
+UserTask                                 N/A                    Ready
+UserTask-Roam                            N/A                    Ready
+
+Folder: \Microsoft\Windows\Chkdsk
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+ProactiveScan                            N/A                    Ready
+SyspartRepair                            N/A                    Ready
+
+Folder: \Microsoft\Windows\Clip
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+License Validation                       N/A                    Disabled
+
+Folder: \Microsoft\Windows\CloudExperienceHost
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+CreateObjectTask                         N/A                    Ready
+
+Folder: \Microsoft\Windows\CUAssistant
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+CULauncher                               30/01/2020 13:35:45    Ready
+
+Folder: \Microsoft\Windows\Customer Experience Improvement Program
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+Consolidator                             30/01/2020 00:00:00    Ready
+UsbCeip                                  N/A                    Ready
+
+Folder: \Microsoft\Windows\Data Integrity Scan
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+Data Integrity Scan                      22/02/2020 19:13:03    Ready
+Data Integrity Scan for Crash Recovery   N/A                    Ready
+
+Folder: \Microsoft\Windows\Defrag
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+ScheduledDefrag                          N/A                    Ready
+
+Folder: \Microsoft\Windows\Device Information
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+Device                                   30/01/2020 04:18:09    Ready
+
+Folder: \Microsoft\Windows\Device Setup
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+Metadata Refresh                         N/A                    Ready
+
+Folder: \Microsoft\Windows\DeviceDirectoryClient
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+HandleCommand                            N/A                    Ready
+HandleWnsCommand                         N/A                    Ready
+IntegrityCheck                           06/02/2020 06:31:53    Ready
+LocateCommandUserSession                 N/A                    Ready
+RegisterDeviceAccountChange              N/A                    Ready
+RegisterDeviceLocationRightsChange       N/A                    Disabled
+RegisterDevicePeriodic24                 N/A                    Disabled
+RegisterDevicePolicyChange               N/A                    Ready
+RegisterDeviceProtectionStateChanged     N/A                    Ready
+RegisterDeviceSettingChange              N/A                    Ready
+RegisterUserDevice                       N/A                    Ready
+
+Folder: \Microsoft\Windows\Diagnosis
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+RecommendedTroubleshootingScanner        N/A                    Ready
+Scheduled                                N/A                    Ready
+
+Folder: \Microsoft\Windows\DirectX
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+DirectXDatabaseUpdater                   N/A                    Ready
+DXGIAdapterCache                         N/A                    Ready
+
+Folder: \Microsoft\Windows\DiskCleanup
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+SilentCleanup                            N/A                    Ready
+
+Folder: \Microsoft\Windows\DiskDiagnostic
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+Microsoft-Windows-DiskDiagnosticDataColl N/A                    Ready
+Microsoft-Windows-DiskDiagnosticResolver N/A                    Disabled
+
+Folder: \Microsoft\Windows\DiskFootprint
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+Diagnostics                              N/A                    Ready
+StorageSense                             N/A                    Ready
+
+Folder: \Microsoft\Windows\DUSM
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+dusmtask                                 N/A                    Ready
+
+Folder: \Microsoft\Windows\EDP
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+EDP App Launch Task                      N/A                    Ready
+EDP Auth Task                            N/A                    Ready
+EDP Inaccessible Credentials Task        N/A                    Ready
+StorageCardEncryption Task               N/A                    Ready
+
+Folder: \Microsoft\Windows\EnterpriseMgmt
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+MDMMaintenenceTask                       N/A                    Ready
+
+Folder: \Microsoft\Windows\ExploitGuard
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+ExploitGuard MDM policy Refresh          N/A                    Ready
+
+Folder: \Microsoft\Windows\Feedback
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+INFO: There are no scheduled tasks presently available at your access level.
+
+Folder: \Microsoft\Windows\Feedback\Siuf
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+DmClient                                 N/A                    Ready
+DmClientOnScenarioDownload               N/A                    Ready
+
+Folder: \Microsoft\Windows\File Classification Infrastructure
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+Property Definition Sync                 N/A                    Disabled
+
+Folder: \Microsoft\Windows\FileHistory
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+File History (maintenance mode)          N/A                    Ready
+
+Folder: \Microsoft\Windows\Flighting
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+INFO: There are no scheduled tasks presently available at your access level.
+
+Folder: \Microsoft\Windows\Flighting\FeatureConfig
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+ReconcileFeatures                        N/A                    Ready
+
+Folder: \Microsoft\Windows\Flighting\OneSettings
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+RefreshCache                             30/01/2020 05:59:22    Ready
+
+Folder: \Microsoft\Windows\HelloFace
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+FODCleanupTask                           N/A                    Ready
+
+Folder: \Microsoft\Windows\InstallService
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+ScanForUpdates                           30/01/2020 21:48:19    Ready
+ScanForUpdatesAsUser                     N/A                    Ready
+SmartRetry                               N/A                    Ready
+WakeUpAndContinueUpdates                 N/A                    Disabled
+WakeUpAndScanForUpdates                  N/A                    Disabled
+
+Folder: \Microsoft\Windows\LanguageComponentsInstaller
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+Installation                             N/A                    Ready
+ReconcileLanguageResources               N/A                    Ready
+Uninstallation                           N/A                    Disabled
+
+Folder: \Microsoft\Windows\License Manager
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+TempSignedLicenseExchange                N/A                    Ready
+
+Folder: \Microsoft\Windows\Live
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+INFO: There are no scheduled tasks presently available at your access level.
+
+Folder: \Microsoft\Windows\Location
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+Notifications                            N/A                    Ready
+WindowsActionDialog                      N/A                    Ready
+
+Folder: \Microsoft\Windows\Maintenance
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+WinSAT                                   N/A                    Ready
+
+Folder: \Microsoft\Windows\Management
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+INFO: There are no scheduled tasks presently available at your access level.
+
+Folder: \Microsoft\Windows\Management\Provisioning
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+Cellular                                 N/A                    Ready
+Logon                                    N/A                    Ready
+
+Folder: \Microsoft\Windows\Maps
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+MapsToastTask                            N/A                    Ready
+MapsUpdateTask                           30/01/2020 01:27:16    Ready
+
+Folder: \Microsoft\Windows\MemoryDiagnostic
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+ProcessMemoryDiagnosticEvents            N/A                    Ready
+RunFullMemoryDiagnostic                  N/A                    Ready
+
+Folder: \Microsoft\Windows\Mobile Broadband Accounts
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+MNO Metadata Parser                      N/A                    Ready
+
+Folder: \Microsoft\Windows\MUI
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+LPRemove                                 N/A                    Ready
+
+Folder: \Microsoft\Windows\Multimedia
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+SystemSoundsService                      N/A                    Running
+
+Folder: \Microsoft\Windows\NetTrace
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+GatherNetworkInfo                        N/A                    Ready
+
+Folder: \Microsoft\Windows\NlaSvc
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+WiFiTask                                 N/A                    Ready
+
+Folder: \Microsoft\Windows\Offline Files
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+Background Synchronization               N/A                    Disabled
+Logon Synchronization                    N/A                    Disabled
+
+Folder: \Microsoft\Windows\PI
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+Secure-Boot-Update                       N/A                    Ready
+Sqm-Tasks                                N/A                    Ready
+
+Folder: \Microsoft\Windows\PLA
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+INFO: There are no scheduled tasks presently available at your access level.
+
+Folder: \Microsoft\Windows\Plug and Play
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+Device Install Group Policy              N/A                    Ready
+Device Install Reboot Required           N/A                    Ready
+Sysprep Generalize Drivers               N/A                    Ready
+
+Folder: \Microsoft\Windows\Power Efficiency Diagnostics
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+AnalyzeSystem                            N/A                    Ready
+
+Folder: \Microsoft\Windows\Printing
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+EduPrintProv                             N/A                    Ready
+
+Folder: \Microsoft\Windows\PushToInstall
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+LoginCheck                               N/A                    Disabled
+Registration                             18/02/2020 21:26:52    Ready
+
+Folder: \Microsoft\Windows\Ras
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+MobilityManager                          N/A                    Ready
+
+Folder: \Microsoft\Windows\RecoveryEnvironment
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+VerifyWinRE                              N/A                    Disabled
+
+Folder: \Microsoft\Windows\Registry
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+RegIdleBackup                            N/A                    Ready
+
+Folder: \Microsoft\Windows\RemoteAssistance
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+RemoteAssistanceTask                     N/A                    Ready
+
+Folder: \Microsoft\Windows\Servicing
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+StartComponentCleanup                    N/A                    Ready
+
+Folder: \Microsoft\Windows\SettingSync
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+BackgroundUploadTask                     N/A                    Ready
+NetworkStateChangeTask                   N/A                    Ready
+
+Folder: \Microsoft\Windows\SharedPC
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+Account Cleanup                          N/A                    Disabled
+
+Folder: \Microsoft\Windows\Shell
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+CreateObjectTask                         N/A                    Ready
+FamilySafetyMonitor                      N/A                    Ready
+FamilySafetyMonitorToastTask             N/A                    Disabled
+FamilySafetyRefreshTask                  N/A                    Ready
+IndexerAutomaticMaintenance              N/A                    Ready
+
+Folder: \Microsoft\Windows\SMB
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+UninstallSMB1ClientTask                  N/A                    Ready
+UninstallSMB1ServerTask                  N/A                    Ready
+
+Folder: \Microsoft\Windows\SoftwareProtectionPlatform
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+SvcRestartTask                           29/01/2020 23:25:43    Ready
+SvcRestartTaskLogon                      N/A                    Ready
+SvcRestartTaskNetwork                    N/A                    Ready
+
+Folder: \Microsoft\Windows\SpacePort
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+SpaceAgentTask                           N/A                    Ready
+SpaceManagerTask                         N/A                    Ready
+
+Folder: \Microsoft\Windows\Speech
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+HeadsetButtonPress                       N/A                    Ready
+SpeechModelDownloadTask                  30/01/2020 03:54:32    Ready
+
+Folder: \Microsoft\Windows\StateRepository
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+MaintenanceTasks                         N/A                    Ready
+
+Folder: \Microsoft\Windows\Storage Tiers Management
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+Storage Tiers Management Initialization  N/A                    Ready
+Storage Tiers Optimization               N/A                    Disabled
+
+Folder: \Microsoft\Windows\Subscription
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+EnableLicenseAcquisition                 N/A                    Ready
+LicenseAcquisition                       N/A                    Disabled
+
+Folder: \Microsoft\Windows\Sysmain
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+HybridDriveCachePrepopulate              N/A                    Disabled
+HybridDriveCacheRebalance                N/A                    Disabled
+ResPriStaticDbSync                       N/A                    Ready
+WsSwapAssessmentTask                     N/A                    Ready
+
+Folder: \Microsoft\Windows\SystemRestore
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+SR                                       N/A                    Ready
+
+Folder: \Microsoft\Windows\Task Manager
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+Interactive                              N/A                    Ready
+
+Folder: \Microsoft\Windows\TextServicesFramework
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+MsCtfMonitor                             N/A                    Ready
+
+Folder: \Microsoft\Windows\Time Synchronization
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+ForceSynchronizeTime                     N/A                    Ready
+SynchronizeTime                          N/A                    Ready
+
+Folder: \Microsoft\Windows\Time Zone
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+SynchronizeTimeZone                      N/A                    Ready
+
+Folder: \Microsoft\Windows\TPM
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+Tpm-HASCertRetr                          N/A                    Ready
+Tpm-Maintenance                          N/A                    Ready
+
+Folder: \Microsoft\Windows\UNP
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+RunUpdateNotificationMgr                 N/A                    Disabled
+
+Folder: \Microsoft\Windows\UpdateAssistant
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+UpdateAssistant                          N/A                    Disabled
+UpdateAssistantAllUsersRun               N/A                    Disabled
+UpdateAssistantCalendarRun               N/A                    Disabled
+UpdateAssistantWakeupRun                 N/A                    Disabled
+
+Folder: \Microsoft\Windows\UpdateOrchestrator
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+Maintenance Install                      N/A                    Disabled
+Reboot                                   N/A                    Disabled
+Reboot_AC                                N/A                    Disabled
+Reboot_Battery                           N/A                    Disabled
+Schedule Retry Scan                      27/01/2032 18:41:13    Ready
+Schedule Scan                            30/01/2020 10:57:31    Ready
+Schedule Scan Static Task                N/A                    Ready
+Universal Orchestrator Start             29/01/2020 23:40:00    Ready
+UpdateModelTask                          N/A                    Ready
+USO_Broker_Display                       N/A                    Ready
+USO_UxBroker                             30/01/2020 23:00:57    Ready
+
+Folder: \Microsoft\Windows\UPnP
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+UPnPHostConfig                           N/A                    Ready
+
+Folder: \Microsoft\Windows\USB
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+Usb-Notifications                        N/A                    Ready
+
+Folder: \Microsoft\Windows\User Profile Service
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+HiveUploadTask                           N/A                    Disabled
+
+Folder: \Microsoft\Windows\WaaSMedic
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+PerformRemediation                       30/01/2020 03:32:06    Ready
+
+Folder: \Microsoft\Windows\WCM
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+WiFiTask                                 N/A                    Ready
+
+Folder: \Microsoft\Windows\WDI
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+ResolutionHost                           N/A                    Running
+
+Folder: \Microsoft\Windows\Windows Defender
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+Windows Defender Cache Maintenance       N/A                    Ready
+Windows Defender Cleanup                 N/A                    Ready
+Windows Defender Scheduled Scan          N/A                    Ready
+Windows Defender Verification            N/A                    Ready
+
+Folder: \Microsoft\Windows\Windows Error Reporting
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+QueueReporting                           29/01/2020 23:51:48    Ready
+
+Folder: \Microsoft\Windows\Windows Filtering Platform
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+BfeOnServiceStartTypeChange              N/A                    Ready
+
+Folder: \Microsoft\Windows\Windows Media Sharing
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+UpdateLibrary                            N/A                    Ready
+
+Folder: \Microsoft\Windows\WindowsColorSystem
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+Calibration Loader                       N/A                    Ready
+
+Folder: \Microsoft\Windows\WindowsUpdate
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+Scheduled Start                          28/01/2032 14:37:13    Ready
+sihpostreboot                            N/A                    Ready
+
+Folder: \Microsoft\Windows\Wininet
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+CacheTask                                N/A                    Running
+
+Folder: \Microsoft\Windows\WlanSvc
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+CDSSync                                  N/A                    Ready
+
+Folder: \Microsoft\Windows\WOF
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+WIM-Hash-Management                      N/A                    Ready
+WIM-Hash-Validation                      N/A                    Disabled
+
+Folder: \Microsoft\Windows\Work Folders
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+Work Folders Logon Synchronization       N/A                    Ready
+Work Folders Maintenance Work            N/A                    Ready
+
+Folder: \Microsoft\Windows\Workplace Join
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+Automatic-Device-Join                    N/A                    Disabled
+Device-Sync                              N/A                    Disabled
+Recovery-Check                           N/A                    Disabled
+
+Folder: \Microsoft\Windows\WwanSvc
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+NotificationTask                         N/A                    Ready
+
+Folder: \Microsoft\XblGameSave
+TaskName                                 Next Run Time          Status
+======================================== ====================== ===============
+XblGameSaveTask                          N/A                    Ready
+
+19. tree
+C:\Users\Naufal Ariq\Documents>tree
+Folder PATH listing
+Volume serial number is 2E64-FE23
+C:.
+├───Apowersoft
+│   └───MKV Converter Studio
+│       ├───Convert
+│       ├───Download
+│       ├───Recording
+│       └───Snapshots
+├───bela folder
+│   ├───dokumen seko hp
+│   ├───Elza
+│   │   └───SIAP PRINT ELZA
+│   ├───foto hp
+│   ├───I Cannot Hug You
+│   ├───I Cannot Hug You  2
+│   ├───korea
+│   ├───Rookie Historian Goo Hae Ryung 2019
+│   ├───seko hp
+│   ├───serai bela
+│   └───vidio seko hp
+│       ├───Private
+│       └───Sent
+├───CDP X6
+│   └───Nerd Tetudo
+│       └───%Common AppData%
+│           └───Protexis
+├───Corel
+│   ├───Corel Content
+│   │   ├───Extensions
+│   │   ├───Fills
+│   │   └───Fonts
+│   └───CorelDRAW X8 Samples
+├───Custom Office Templates
+├───Electronic Arts
+│   └───The Sims 4
+│       ├───cachestr
+│       ├───Custom Music
+│       │   ├───Alternative
+│       │   ├───Backyard
+│       │   ├───Baroque
+│       │   ├───Blues
+│       │   ├───Classical
+│       │   ├───Dinner Jazz
+│       │   ├───Easy Listening
+│       │   ├───Electronica
+│       │   ├───Kids
+│       │   ├───New Age
+│       │   ├───Pop
+│       │   ├───Sim Retro
+│       │   ├───Spooky
+│       │   ├───Spop
+│       │   └───Winter Holiday
+│       ├───Mods
+│       ├───onlinethumbnailcache
+│       ├───Recorded Videos
+│       ├───saves
+│       ├───Screenshots
+│       ├───Tray
+│       └───VideoCameraStates
+├───kinara
+├───My Palettes
+├───Sony
+│   └───Xperia Companion
+│       ├───Backups
+│       │   └───bf90490177e54120e498af7e2600ae0d0d694d1c
+│       │       ├───8a53dea45ca99679733cc4988828ec3262a1eb22
+│       │       │   ├───android
+│       │       │   ├───com.android.chrome
+│       │       │   ├───com.android.providers.settings
+│       │       │   ├───com.android.providers.userdictionary
+│       │       │   ├───com.android.vending
+│       │       │   ├───com.apple.qrcode.reader
+│       │       │   ├───com.google.android.apps.docs
+│       │       │   ├───com.google.android.apps.docs.editors.docs
+│       │       │   ├───com.google.android.apps.docs.editors.sheets
+│       │       │   ├───com.google.android.apps.docs.editors.slides
+│       │       │   ├───com.google.android.apps.maps
+│       │       │   ├───com.google.android.apps.photos
+│       │       │   ├───com.google.android.apps.youtube.music
+│       │       │   ├───com.google.android.calendar
+│       │       │   ├───com.google.android.gm
+│       │       │   ├───com.google.android.googlequicksearchbox
+│       │       │   ├───com.google.android.marvin.talkback
+│       │       │   ├───com.google.android.talk
+│       │       │   ├───com.google.android.tts
+│       │       │   ├───com.google.android.videos
+│       │       │   ├───com.google.android.youtube
+│       │       │   ├───com.laws.gusionnik
+│       │       │   ├───com.leadingedgeapps.batterymonitor
+│       │       │   ├───com.ookbee.joyapp.android
+│       │       │   ├───com.shopee.id
+│       │       │   ├───com.sony.nfx.app.sfrc
+│       │       │   ├───com.sonymobile.android.dialer
+│       │       │   ├───com.sonymobile.androidapp.cameraaddon.areffect
+│       │       │   ├───com.sonymobile.assist
+│       │       │   ├───com.sonymobile.email
+│       │       │   ├───com.streetbees
+│       │       │   ├───com.tencent.ig
+│       │       │   ├───com.tokopedia.tkpd
+│       │       │   ├───com.universal.remote.universal.forall.tv_ac.activity
+│       │       │   ├───com.vsray.remote.control
+│       │       │   ├───com.wakeup.smartband
+│       │       │   ├───com.wakeup.wearfit2
+│       │       │   ├───com.whatsapp
+│       │       │   ├───free.vpn.master
+│       │       │   ├───id.lokerjogja.lowongan
+│       │       │   └───net.fast_notepad_notes_app.fastnotepad
+│       │       └───Media
+│       ├───cache
+│       └───logs
+└───vidio
+
+20. time 
+C:\Users\Naufal Ariq\Documents>time
+The current time is: 22:08:17,86
+Enter the new time: 22:09:00
+A required privilege is not held by the client.
