@@ -1,1 +1,0 @@
-kemampuan-dasar-1
